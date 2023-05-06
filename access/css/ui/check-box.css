@@ -1,0 +1,8 @@
+
+
+input[type=checkbox] {
+    border: var(--outline);
+    border-radius: var(--border-radius-min);
+    height: 20px;
+    width: 20px;
+}

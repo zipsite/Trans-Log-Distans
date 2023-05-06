@@ -1,0 +1,28 @@
+.card-with-img {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: var(--gap-min);
+}
+
+.card-with-img > .place-img {
+    border: var(--outline);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-with-img > .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-with-img > .description {
+    line-height: 1.5rem;
+    max-height: 4.5rem;
+    
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

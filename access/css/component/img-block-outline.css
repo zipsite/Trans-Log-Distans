@@ -1,0 +1,17 @@
+.img-block-outline {
+    position: relative;
+}
+.img-block-outline::before {
+    display: block;
+    content: '';
+    padding-bottom: calc(100% * 0.526);
+}
+
+.img-block-outline > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

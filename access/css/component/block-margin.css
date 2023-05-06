@@ -1,0 +1,11 @@
+.margin {
+    max-width: 1216px;
+    margin: 0px auto;
+
+}
+.part-content .margin {
+    gap: var(--gap-max);
+    padding: var(--out-padding);
+    display: flex;
+    flex-direction: column;
+}

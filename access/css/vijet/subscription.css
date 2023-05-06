@@ -1,0 +1,25 @@
+.subscription {
+    background-image: url(/access/img/plane-trucks.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.subscription .margin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.subscription .form-subscription {
+   
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-max);
+}
+
+.subscription .check-box {
+    display: flex;
+    align-items: end;
+    gap: var(--gap-min);
+}

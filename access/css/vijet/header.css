@@ -1,0 +1,43 @@
+header {
+    background-color: var(--background);
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .margin {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    padding: 12px 32px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.logo {
+    border: var(--outline);
+    border-radius: var(--border-radius-max);
+    width: 70px;
+    height: 53px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+header .left-part {
+    display: flex;
+    gap: var(--gap-max);
+    align-items: stretch;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-max);
+}
+
+header .right-part {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-max);
+}

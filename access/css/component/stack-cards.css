@@ -1,0 +1,6 @@
+.stack-cards .place-cards {
+    display: flex;
+    gap: var(--gap-max);
+    width: 100%;
+}
+

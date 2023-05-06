@@ -1,0 +1,24 @@
+.footer .margin {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-max);
+}
+
+.footer .part-footer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-max);
+}
+
+.footer .part-footer .list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-min);
+    color: var(--secondary-text);
+}
+
+.footer .part-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

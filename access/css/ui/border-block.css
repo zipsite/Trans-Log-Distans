@@ -1,0 +1,6 @@
+.border-block {
+    background-color: var(--background);
+    border: var(--outline);
+    border-radius: var(--border-radius-max);
+    padding: var(--in-padding);
+}
