@@ -1,0 +1,16 @@
+.user-panel .border-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-panel .list {
+    width: 100%;
+    display: flex;
+    gap: var(--gap-max);
+    align-items: center;
+    padding-left: 24px;
+}
+
+.user-panel button {
+    width: auto;
+}
