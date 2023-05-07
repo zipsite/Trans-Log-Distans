@@ -2,14 +2,14 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    src: url(/access/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    src: url(/access/fonts/Roboto/Roboto-Medium.ttf);
+    src: url(../fonts//Roboto/Roboto-Medium.ttf);
 }
 
 .h1 {
